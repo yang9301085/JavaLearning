@@ -20,4 +20,7 @@ public class MyInterfaceImpl implements MyInterfaceAbs{
     public void methodAbs4() {
         System.out.println("这是第四个方法");
     }
+    public void methodSame(){
+        System.out.println("我是在父类MyInterfaceImpl中的方法");
+    }
 }
